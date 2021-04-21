@@ -1,5 +1,6 @@
 import React from "react";
 import PropTypes from "prop-types";
+
 import "./button.css";
 
 /**
@@ -22,8 +23,6 @@ export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
     </button>
   );
 };
-
-// james
 
 Button.propTypes = {
   /**

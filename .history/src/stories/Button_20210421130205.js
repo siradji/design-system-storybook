@@ -23,8 +23,6 @@ export const Button = ({ primary, backgroundColor, size, label, ...props }) => {
   );
 };
 
-// james
-
 Button.propTypes = {
   /**
    * Is this the principal call to action on the page?
